@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 
   <head>
@@ -13,14 +12,14 @@
     <title>Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/business-casual.min.css" rel="stylesheet">
+    <link href="/resources/css/business-casual.min.css" rel="stylesheet">
 
   </head>
 
@@ -61,7 +60,7 @@
 
     <section class="page-section about-heading">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="/resources/img/about.jpg" alt="">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
@@ -86,8 +85,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/resources/vendor/jquery/jquery.min.js"></script>
+    <script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
