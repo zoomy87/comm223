@@ -53,4 +53,10 @@ public class HomeController {
 		log.info("store");
 		return "store";
 	}
+	
+	@RequestMapping(value = "/events", method = RequestMethod.GET)
+	public String events() {
+		log.info("store");
+		return "eventTemplate";
+	}
 }
