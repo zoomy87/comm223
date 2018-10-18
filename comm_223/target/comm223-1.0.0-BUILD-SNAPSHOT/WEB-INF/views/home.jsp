@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+    <!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -13,14 +12,15 @@
     <title>Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <spring:url value="/resources/" var="resource"/>
+    <link href="${resource}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/resources/css/business-casual.min.css" rel="stylesheet">
+    <link href="${resource}/css/business-casual.min.css" rel="stylesheet">
 
   </head>
 
@@ -49,10 +49,10 @@
               <a class="nav-link text-uppercase text-expanded" href="about">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.jsp">Products</a>
+              <a class="nav-link text-uppercase text-expanded" href="products">Products</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.jsp">Store</a>
+              <a class="nav-link text-uppercase text-expanded" href="store">Store</a>
             </li>
           </ul>
         </div>
@@ -62,7 +62,7 @@
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/resources/img/intro.jpg" alt="">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="${resource}/img/intro.jpg" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Fresh Coffee</span>
@@ -101,8 +101,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/resources/vendor/jquery/jquery.min.js"></script>
-    <script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="${resource}/vendor/jquery/jquery.min.js"></script>
+    <script src="${resource}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
