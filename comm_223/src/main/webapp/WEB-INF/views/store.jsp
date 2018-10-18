@@ -27,8 +27,8 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-      <span class="site-heading-lower">Business Casual</span>
+      <span class="site-heading-upper text-primary mb-3">Habitat For Humanity - ISU Chapter</span>
+      <span class="site-heading-lower">Post 'Em Page</span>
     </h1>
 
     <!-- Navigation -->
@@ -49,7 +49,7 @@
               <a class="nav-link text-uppercase text-expanded" href="about">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products">Products</a>
+              <a class="nav-link text-uppercase text-expanded" href="events">Events</a>
             </li>
             <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="store">Store</a>
@@ -142,7 +142,7 @@
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 small">Copyright &copy; ISU Habitat For Humanity 2018</p>
       </div>
     </footer>
 
