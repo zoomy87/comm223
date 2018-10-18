@@ -10,6 +10,8 @@ public class PostController {
 	
 	private static final Logger log = LoggerFactory.getLogger(PostController.class);
 	
+	private int x= 23;
+	
 	
 	
 	
