@@ -6,6 +6,8 @@ import java.util.Locale;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,8 +17,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Handles requests for the application home page.
  */
 @Controller
+@PropertySource(value= "classpath:application.properties")
 public class HomeController {
 	
+	@Value("${db.name}")
+	public String db;
 	private static final Logger log = LoggerFactory.getLogger(HomeController.class);
 	
 	/**
@@ -45,6 +50,7 @@ public class HomeController {
 	@RequestMapping(value = "/products", method = RequestMethod.GET)
 	public String products() {
 		log.info("products");
+		log.info(db);
 		return "products";
 	}
 	
@@ -56,7 +62,8 @@ public class HomeController {
 	
 	@RequestMapping(value = "/events", method = RequestMethod.GET)
 	public String events() {
-		log.info("store");
+		log.info("events");
+		log.info(db);
 		return "eventTemplate";
 	}
 }
