@@ -1,7 +1,9 @@
 package com.isuHabitatForHumanity.comm223.dao;
 
+import java.util.ArrayList;
+
 public interface DAO {
 
-	public void setPost();
-	public void getPost();
+	public ArrayList setItem();
+	public ArrayList getItem();
 }
