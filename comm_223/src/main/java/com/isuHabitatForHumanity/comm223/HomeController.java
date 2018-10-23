@@ -53,4 +53,9 @@ public class HomeController {
 		log.info("store");
 		return "store";
 	}
+	@RequestMapping(value = "/gallery", method = RequestMethod.GET)
+	public String gallery() {
+		log.info("gallery");
+		return "gallery";
+	}
 }
