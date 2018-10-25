@@ -57,5 +57,14 @@ public class HomeController {
 	public String gallery() {
 		log.info("gallery");
 		return "gallery";
+		
+		
+	}
+	@RequestMapping(value = "/post", method = RequestMethod.GET)
+	public String post() {
+		log.info("post");
+		return "post";
+		
+		
 	}
 }
