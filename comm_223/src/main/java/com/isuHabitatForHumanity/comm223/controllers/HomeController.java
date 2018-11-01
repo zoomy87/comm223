@@ -71,6 +71,18 @@ public class HomeController {
 		return "store";
 	}
 	
+	@RequestMapping(value = "/gallery", method = RequestMethod.GET)
+	public String gallery() {
+		log.info("gallery");
+		return "gallery";
+	}
+	
+	@RequestMapping(value = "/post", method = RequestMethod.GET)
+	public String post() {
+		log.info("post");
+		return "post";
+	}
+	
 	@RequestMapping(value = "/events", method = RequestMethod.GET)
 	public String events() {
 		log.info("events");
