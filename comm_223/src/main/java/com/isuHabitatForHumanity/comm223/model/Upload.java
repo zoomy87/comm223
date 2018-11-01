@@ -29,7 +29,11 @@ public class Upload {
 		uploadDateTime = dateTime;
 	}
 	
-	//randomly generate ID?
+	public Upload() {
+		
+	}
+	
+	//All IDs will be set by the database
 	public Upload(String ID)
 	{
 		this.setUploadID(ID);
