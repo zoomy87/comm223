@@ -1,5 +1,10 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
+Built-By: Matt1
+Build-Jdk: 1.8.0_181
+=======
 Built-By: ericz
 Build-Jdk: 1.8.0_191
+>>>>>>> branch 'master' of https://github.com/zoomy87/comm223.git
 Created-By: Maven Integration for Eclipse
 

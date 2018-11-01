@@ -53,6 +53,8 @@
             </li>
             <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="store">Store</a>
+                <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="gallery">Gallery</a>
             </li>
           </ul>
         </div>

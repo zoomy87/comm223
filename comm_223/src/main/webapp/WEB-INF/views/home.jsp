@@ -53,6 +53,8 @@
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="store">Store</a>
+               <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="gallery">Gallery</a>
             </li>
           </ul>
         </div>
@@ -65,13 +67,24 @@
           <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="${resource}/img/intro.jpg" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">
+<<<<<<< HEAD
+              <span class="section-heading-upper">Dank Coffee</span>
+              <span class="section-heading-lower">Worth Drinking</span>
+=======
               <span class="section-heading-upper">Welcome!</span>
               <span class="section-heading-lower">Always Open For New Members</span>
+>>>>>>> branch 'master' of https://github.com/zoomy87/comm223.git
             </h2>
             <p class="mb-3">Habitat For Humanity service projects are a great addition to any resumé.
             </p>
             <div class="intro-button mx-auto">
+<<<<<<< HEAD
+              <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+              <a class="btn btn-info btn-lg" href="post">Post</a>
+               <li class="nav-item px-lg-4">
+=======
               <a class="btn btn-primary btn-xl" href="#">Sign Up Today!</a>
+>>>>>>> branch 'master' of https://github.com/zoomy87/comm223.git
             </div>
           </div>
         </div>
