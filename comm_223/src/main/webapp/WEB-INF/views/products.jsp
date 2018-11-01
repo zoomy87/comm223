@@ -50,7 +50,7 @@
               <a class="nav-link text-uppercase text-expanded" href="about">About</a>
             </li>
             <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products">Products</a>
+              <a class="nav-link text-uppercase text-expanded" href="events">Events</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="store">Store</a>

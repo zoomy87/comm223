@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+    <!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -13,22 +12,23 @@
     <title>Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <spring:url value="/resources/" var="resource"/>
+    <link href="${resource}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/resources/css/business-casual.min.css" rel="stylesheet">
+    <link href="${resource}/css/business-casual.min.css" rel="stylesheet">
 
   </head>
 
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-      <span class="site-heading-lower">Business Casual</span>
+      <span class="site-heading-upper text-primary mb-3">Habitat For Humanity</span>
+      <span class="site-heading-lower">ISU Chapter</span>
     </h1>
 
     <!-- Navigation -->
@@ -49,10 +49,10 @@
               <a class="nav-link text-uppercase text-expanded" href="about">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.jsp">Products</a>
+              <a class="nav-link text-uppercase text-expanded" href="events">Events</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.jsp">Store</a>
+              <a class="nav-link text-uppercase text-expanded" href="store">Store</a>
             </li>
           </ul>
         </div>
@@ -62,16 +62,16 @@
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/resources/img/intro.jpg" alt="">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="${resource}/img/intro.jpg" alt="">
           <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Fresh Coffee</span>
-              <span class="section-heading-lower">Worth Drinking</span>
+              <span class="section-heading-upper">Welcome!</span>
+              <span class="section-heading-lower">Always Open For New Members</span>
             </h2>
-            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+            <p class="mb-3">Habitat For Humanity service projects are a great addition to any resumé.
             </p>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+              <a class="btn btn-primary btn-xl" href="#">Sign Up Today!</a>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
                 <span class="section-heading-upper">Our Promise</span>
                 <span class="section-heading-lower">To You</span>
               </h2>
-              <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+              <p class="mb-0">You'll come out of one of our projects feeling better about yourself.</p>
             </div>
           </div>
         </div>
@@ -96,13 +96,13 @@
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 small">Copyright &copy; ISU Habitat For Humanity 2018</p>
       </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/resources/vendor/jquery/jquery.min.js"></script>
-    <script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="${resource}/vendor/jquery/jquery.min.js"></script>
+    <script src="${resource}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
