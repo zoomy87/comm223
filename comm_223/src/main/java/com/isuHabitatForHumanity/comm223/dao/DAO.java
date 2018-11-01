@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public interface DAO {
 
-	public ArrayList setItem();
-	public ArrayList getItem();
+	public void setItem(String paragraph, String title);
+	public ArrayList getItem(int id);
+	public ArrayList getAllItems();
 }
