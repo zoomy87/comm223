@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Lora';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/bg.jpg");
-  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.65)));
+  background: linear-gradient(rgba(255, 103, 31, 0.65));
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -27,7 +27,7 @@ p {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .site-heading {
@@ -48,6 +48,7 @@ p {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
+  color: #a4343a;
 }
 
 .page-section {
@@ -72,11 +73,11 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(56, 89, 136, 0.85);
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(136, 139, 141, 0.9);
   font-family: 'Raleway';
 }
 
@@ -85,12 +86,12 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 175, 215, 0.7);
   font-weight: 800;
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #c4d600;
 }
 
 @media (min-width: 992px) {
@@ -98,10 +99,10 @@ p {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(196, 214, 0, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #c4d600;
   }
 }
 
@@ -146,14 +147,14 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(56, 89, 136, 0.9);
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 175, 215, 0.85);
 }
 
 .cta .cta-inner:before {
@@ -164,7 +165,7 @@ p {
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  border: 0.25rem solid rgba(196, 214, 0, 0.85);
 }
 
 @media (min-width: 992px) {
@@ -203,7 +204,7 @@ p {
 }
 
 .list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
@@ -211,7 +212,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #888b8d;
 }
 
 @media (min-width: 992px) {
@@ -226,15 +227,15 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(0, 175, 215, 0.9);
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #00afd7 !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #ffffff !important;
 }
 
 .btn {
@@ -243,13 +244,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #00afd7;
+  border-color: #00afd7;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #c4d600;
+  border-color: #c4d600;
 }
 
 .font-weight-light {
