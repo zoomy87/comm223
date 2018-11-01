@@ -24,6 +24,11 @@ public class Admin {
 		password = newPassword;
 	}
 	
+	public Admin() {
+		this.username="Admin";
+		this.password="Comm223";
+	}
+	
 	public Admin(String user, String pass)
 	{
 		this.setUsername(user);
