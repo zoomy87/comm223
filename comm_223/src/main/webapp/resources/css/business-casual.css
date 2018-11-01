@@ -77,7 +77,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(136, 139, 141, 0.9);
+  background-color: rgba(0, 175, 215, 0.9);
   font-family: 'Raleway';
 }
 
@@ -86,7 +86,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(0, 175, 215, 0.7);
+  color: rgba(70, 49, 51, 0.7);
   font-weight: 800;
 }
 
@@ -227,7 +227,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(0, 175, 215, 0.9);
+  background-color: rgba(136, 139, 141, 0.9);
 }
 
 .text-primary {
